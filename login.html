@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    <div class="container">
+
+   <div class="form__container">
+      <div class="close">X</div>
+      <h1 class="form__title">Get Started Free for 90 Days</h1>
+      <form>
+         <fieldset>
+            <legend>About You</legend>
+
+            <div class="form-row">
+               <div class="form-control">
+                  <label>Name</label>
+                  <input type="text" placeholder="What's your name?" />
+               </div>
+               <div class="form-control">
+                  <label>Email</label>
+                  <input type="text" placeholder="hello@email.com" />
+               </div>
+               <div class="form-control">
+                  <label>Phone</label>
+                  <input type="text" placeholder="555 555 5555" />
+               </div>
+            </div>
+            <!--/.form-row-->
+         </fieldset>
+         <fieldset>
+            <legend>Your Company</legend>
+            <div class="form-row">
+
+               <div class="form-control">
+                  <label>Company</label>
+                  <input type="text" placeholder="Where do you work?" />
+               </div>
+               <div class="form-control">
+                  <label>City</label>
+                  <input type="text" placeholder="Where is your company located?" />
+               </div>
+            </div>
+            <div class="form-row">
+               <div class="form-control">
+                  <label>Country</label>
+                  <select id="country">
+                     <option value="" disabled selected>Select a country</option>
+                     <option value="US">United States</option>
+                     <option value="EU">United Kingdom</option>
+                     <option value="UK">Africa</option>
+                  </select>
+               </div><!--/.form-control-->
+               <div class="form-control">
+                  <label>State/Province</label>
+                  <select id="state">
+                     <option value="" disabled selected>Select a state/province</option>
+                     <option value="MD">MD</option>
+                     <option value="VA">VA</option>
+                     <option value="DC">DC</option>
+                  </select>
+               </div><!--/.form-control-->
+            </div><!--/.form-row-->
+         </fieldset><!--/fieldset-->
+      </form><!--/form-->
+
+      <div class="form__buttons">
+       <button>Sign Up</button>
+      </div><!--/.form__buttons-->
+   </div><!--/.form__container-->
+
+   <div class="form__container" style="display: none;">
+      <div class="close">X</div>
+      <h1 class="form__title">Schedule a Demo</h1>
+      <form>
+         <fieldset>
+            <legend>About You</legend>
+            <div class="form-row">
+               <div class="form-control">
+                  <label>Name</label>
+                  <input type="text" placeholder="What's your name?" class="u-full-width" />
+               </div>
+               <div class="form-control">
+                  <label>Company</label>
+                  <input type="text" placeholder="Where do you work?" class="u-full-width" />
+               </div>
+            </div>
+            <!--/.form-row-->
+
+            <div class="form-row">
+               <div class="form-control">
+                  <label>Email</label>
+                  <input type="text" placeholder="hello@email.com" class="u-full-width" />
+               </div>
+               <div class="form-control">
+                  <label>Phone</label>
+                  <input type="text" placeholder="555 555 5555" class="u-full-width" />
+               </div>
+            </div>
+            <!--/.form-row-->
+         </fieldset>
+         <fieldset>
+            <legend>Your Company</legend>
+            <div class="form-row">
+               <div class="form-control">
+                  <label>City</label>
+                  <input type="text" placeholder="Where is your company located?" class="u-full-width" />
+               </div>
+            </div>
+            <div class="form-row">
+               <div class="form-control">
+                  <label>Country</label>
+                  <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="" disabled selected>Select a country</option>
+                  <option value="US">United States</option>
+                  <option value="EU">United Kingdom</option>
+                  <option value="UK">Africa</option>
+               </select>
+               </div>
+               <div class="form-control">
+                  <label>State/Province</label>
+                  <select class="u-full-width" id="exampleRecipientInput">
+                  <option value="" disabled selected>Select a state/province</option>
+                  <option value="MD">MD</option>
+                  <option value="VA">VA</option>
+                  <option value="DC">DC</option>
+               </select>
+               </div>
+            </div>
+            <!--/.form-row-->
+         </fieldset>
+      </form>
+      <div class="form__buttons">
+       <button>Schedule a Demo</button>
+      </div>
+   </div><!--/.form__container-->
+</div><!--/.container-->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="js/login.js">
+  </body>
+</html>
